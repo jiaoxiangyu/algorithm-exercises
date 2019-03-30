@@ -54,10 +54,15 @@ public class 插入排序 {
         int temp;
         int insertPoint;
         for (int i = 1; i < len; i++) {
-
+            temp = a[i];
+            if(a[i-1]>temp) {  //比有序数组的最后一个元素要小
+                insertPoint = binarySerch(a, 0, i-1, temp);//获取应插入位置的下标
+                for (int j = i; j > insertPoint; j--) {//将有序数组中，插入点之后的元素后移一位
+                    a[j] = a[j-1];
+                }
+                a[insertPoint] = temp;//插入待排序元素到正确的位置
+            }
         }
-
-
         return a;
     }
 
@@ -85,7 +90,7 @@ public class 插入排序 {
     public static void main(String[] args) {
         int[] a = {3, 6, 4, 2, 11, 10, 5};
         System.out.println(Arrays.toString(a));
-        a = insertionSort1(a);
+        a = insertionSort2(a);
         System.out.println(Arrays.toString(a));
     }
 }
