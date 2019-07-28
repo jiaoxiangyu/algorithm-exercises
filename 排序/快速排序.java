@@ -54,12 +54,12 @@ public class 快速排序 {
 
         while(low<high){
 
-            if(low<high &&array[high]>=pivot){  //从右端开始扫描，定位到第一个比pivot小的元素
+            while (low<high &&array[high]>=pivot){  //从右端开始扫描，定位到第一个比pivot小的元素
                 high--;
             }
             swap(low,high);
 
-            if(low<high &&array[low]<=pivot){  //从左端开始扫描，定位到第一个比pivot大的元素
+            while (low<high &&array[low]<=pivot){  //从左端开始扫描，定位到第一个比pivot大的元素
                 low++;
             }
             swap(low,high);
