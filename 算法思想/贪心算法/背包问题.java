@@ -1,4 +1,4 @@
-package 贪心算法;
+package 算法思想.贪心算法;
 
 import java.util.ArrayList;
 import java.util.Collections;

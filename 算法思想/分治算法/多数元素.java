@@ -1,4 +1,4 @@
-package 分治算法;
+package 算法思想.分治算法;
 
 import java.util.HashMap;
 import java.util.Map;

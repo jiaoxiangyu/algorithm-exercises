@@ -1,6 +1,4 @@
-package 动态规划;
-
-import com.sun.org.apache.xpath.internal.operations.Bool;
+package 算法思想.动态规划;
 
 /**
  问题描述：

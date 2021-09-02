@@ -1,4 +1,4 @@
-package 分治算法;
+package 算法思想.分治算法;
 
 /**
  * @ClassName: 将有序数组转换为二叉搜索树

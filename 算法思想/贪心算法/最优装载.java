@@ -1,6 +1,4 @@
-package 贪心算法;
-
-import java.util.Collections;
+package 算法思想.贪心算法;
 
 /**
  *

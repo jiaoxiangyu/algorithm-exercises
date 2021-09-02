@@ -15,7 +15,7 @@ public class 最长递增子序列 {
 
     /**
      * 方法1
-     * 动态规划，时间复杂度O(n^2)，空间复杂度1
+     * 算法思想.动态规划，时间复杂度O(n^2)，空间复杂度1
      * @param str
      */
     public static void maxStrNum1(String str){
